@@ -1,0 +1,156 @@
+.main_container {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+}
+
+/* header */
+
+header {
+  width: 100%;
+  padding: 34.5px 32px 34.5px 32px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  gap: 24px;
+}
+
+li {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.1px;
+  color: #000000;
+}
+
+/* li-ებში ჩემი შრიფტი უფრო მუქია, რომ დამიკომენტარო რატომ. მთლად ზუსტად ვერ ვსვამ ხოლმე
+მინდა ვიცოდე რას ვაკლებ */
+
+h2 {
+  font-family: "Inter";
+  font-weight: 900;
+  font-size: 24.6533px;
+  line-height: 26px;
+  letter-spacing: -0.440237px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.action_box {
+  width: 100px;
+  height: 48px;
+  background: #000000;
+  border-radius: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.p_action {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #f3f3f3;
+}
+
+/* section */
+
+section {
+  width: 100%;
+  padding: 134px 165px 302px 165px;
+}
+
+.section_main_div {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 130px;
+}
+
+
+/* .section_texts {
+  display: flex;
+  flex-direction: column;
+} */
+
+h3 {
+  font-family: "Inter";
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: -1px;
+  color: #000000;
+  width: 490px;
+}
+
+.p_section {
+  margin-top: 24px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #000000;
+}
+
+/* აქ შრიფტი ვერ დავსვი, არადა პროფერთები სწორად მაქვს დაკოპირებული... 
+პროექტში უფრო ღიაა შრიფტი.  რატომ?  */
+
+.section_p_action {
+  margin-top: 40px;
+}
+
+.section_last_p{
+    display: none;
+}
+
+/* tablet large */
+
+
+@media(max-width:1024px){
+    section{
+        padding: 44px 197px 0 197px; 
+       
+    }
+
+     .section_main_div{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    h3{
+        align-items: center;
+        width:630px;
+    }
+    .p_section {
+        align-items: center;
+    }
+       
+    /* სათაური და პარაგრაფი, და ბოქსი ვერ გავცენტრე ისე როგორც პროექტშია. 
+    სხვადასხვა ვერსია ვცადე. რაც დავტოვე მანაც არ იმუშავა სათანადოდ
+    */
+
+    }
+/*    
+tablet small */
+
+@media(max-width:744px){
+    
+    .section_last_p{
+        display: block;
+      
+    }
+
+    /* რატომ არ გამოდის ეს პარაგრაფი 744-ზე? დიდად ვერაფერი გავუგე რესპონსივს(( */
+}
